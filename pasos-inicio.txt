@@ -148,3 +148,67 @@ En 1 minuto te genera algo tipo:
 https://random-name.netlify.app
 
 Ya está online 🚀
+
+🧱 Paso 6 — Estructura recomendada del proyecto
+
+Dentro de /src:
+
+Te sugiero:
+
+src/
+ ├ components/
+ ├ views/
+ ├ router/
+ ├ assets/
+ ├ App.vue
+ └ main.js
+
+Si vas a hacer sitio multipágina:
+
+Instalar router:
+
+npm install vue-router
+🧱 Paso 7 — Primeros cambios útiles
+
+Editar App.vue:
+
+Borrá lo demo y poné algo simple:
+
+<template>
+  <h1>Sistemas y automatización para pymes en Mendoza</h1>
+</template>
+
+Commit:
+
+git add .
+git commit -m "Home inicial"
+git push
+
+Netlify redeploya solo.
+
+🧠 Flujo de trabajo diario
+
+Siempre:
+
+npm run dev
+
+Cuando termines:
+
+git add .
+git commit -m "Cambios"
+git push
+
+Deploy automático.
+
+🎯 Lo que ya lograste
+
+Con esto ya tenés:
+
+✅ entorno local
+✅ control de versiones
+✅ hosting gratis
+✅ deploy automático
+✅ listo para dominio
+✅ listo para SEO
+
+Esto es exactamente el stack que usan muchas startups.
