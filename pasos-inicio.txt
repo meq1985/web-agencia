@@ -1,0 +1,150 @@
+Perfecto, arranquemos desde cero y prolijo, como si estuvieras armando tu estudio digital profesional.
+
+La idea es que hoy mismo tengas:
+
+✅ proyecto Vue creado
+✅ repositorio Git
+✅ subido a GitHub
+✅ deploy automático en Netlify
+✅ listo para conectar dominio después
+
+Te lo explico paso a paso real, pensado para Windows (como tu entorno actual).
+
+🚀 Paso 0 — Requisitos (verificar antes)
+
+Instalá:
+
+1️⃣ Node
+
+👉 Node.js
+
+Abrí terminal y probá:
+
+node -v
+npm -v
+
+Si responde versiones → ok.
+
+2️⃣ Git
+
+👉 Git
+
+git --version
+3️⃣ Editor
+
+👉 Visual Studio Code
+
+Si falta algo, instalalo antes de seguir.
+
+🧱 Paso 1 — Crear carpeta del proyecto
+
+En tu PC:
+
+mkdir agencia-digital
+cd agencia-digital
+code .
+
+Se abre VS Code en esa carpeta.
+
+🧱 Paso 2 — Crear proyecto Vue (Vite recomendado)
+
+Usamos Vite (más rápido que Vue CLI).
+
+En la terminal de VS Code:
+
+npm create vite@latest
+
+Te va a preguntar:
+
+Respuestas recomendadas:
+
+Project name: web-agencia
+Framework: Vue
+Variant: JavaScript
+
+Luego:
+
+cd web-agencia
+npm install
+
+Probar:
+
+npm run dev
+
+Abrí:
+
+http://localhost:5173
+
+Si ves la app Vue → listo.
+
+🧱 Paso 3 — Inicializar Git (repositorio local)
+
+Dentro de web-agencia:
+
+git init
+
+Crear .gitignore (si no existe)
+
+Contenido mínimo:
+
+node_modules
+dist
+.env
+Primer commit
+git add .
+git commit -m "Proyecto Vue inicial"
+
+Listo: ya tenés repo local.
+
+🧱 Paso 4 — Crear repositorio en GitHub
+
+Ir a:
+👉 GitHub
+
+New repository
+
+Nombre: web-agencia
+
+Public
+
+NO README (ya tenemos)
+
+Copiá la URL que te da.
+
+Conectar repo local con GitHub
+
+En terminal:
+
+git remote add origin https://github.com/tuusuario/web-agencia.git
+git branch -M main
+git push -u origin main
+
+Listo: ya está online.
+
+🧱 Paso 5 — Deploy automático en Netlify
+
+Ir a:
+👉 Netlify
+
+Pasos
+
+Add new site
+
+Import from Git
+
+Elegir GitHub
+
+Seleccionar repo
+
+Configuración:
+
+Build command: npm run build
+Publish directory: dist
+
+Deploy.
+
+En 1 minuto te genera algo tipo:
+
+https://random-name.netlify.app
+
+Ya está online 🚀
