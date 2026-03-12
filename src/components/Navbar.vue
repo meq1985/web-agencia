@@ -81,7 +81,7 @@ onBeforeUnmount(() => {
   position:sticky;
   top:0;
   z-index:1000;
-
+  width:100%;
   background:rgba(255,255,255,.9);
   backdrop-filter: blur(8px);
   border-bottom:1px solid #e5e7eb;

@@ -1,6 +1,11 @@
+<script setup>
+import PageLayout from '../layouts/PageLayout.vue'
+</script>
+
 <template>
-  <section>
-    <h1>Blog</h1>
+  <PageLayout title="Blog">
+    
+    
 
     <p>Consejos y guías para digitalizar tu negocio.</p>
 
@@ -9,5 +14,8 @@
       <li>Ventajas de tener página web profesional</li>
       <li>Automatizar WhatsApp para vender más</li>
     </ul>
-  </section>
+  
+
+  </PageLayout>
+  
 </template>

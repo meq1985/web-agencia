@@ -1,6 +1,12 @@
+<script setup>
+import PageLayout from '../layouts/PageLayout.vue'
+</script>
+
 <template>
-  <section>
-    <h1>Contacto</h1>
+  
+  <PageLayout title="Contacto">
+    
+    
 
     <p>
       Contanos tu idea y te enviamos un presupuesto sin costo.
@@ -17,5 +23,6 @@
     <p style="margin-top:20px">
       o email: contacto@tudominio.com
     </p>
-  </section>
+    
+  </PageLayout>
 </template>

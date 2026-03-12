@@ -45,7 +45,7 @@
 
 <style scoped>
 .hero{
-  padding:120px 20px 100px;
+  padding:80px 20px 100px;
   background:linear-gradient(to bottom,#ffffff,#f7f8fa);
   text-align:center;
 }

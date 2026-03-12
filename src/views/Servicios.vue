@@ -1,6 +1,12 @@
+<script setup>
+import PageLayout from '../layouts/PageLayout.vue'
+</script>
+
 <template>
-  <section>
-    <h1>Servicios digitales para pymes en Argentina</h1>
+  
+  <PageLayout title="Servicios digitales para pymes en Argentina">
+    <section>
+    
 
     <h2>Sistemas de gestión</h2>
     <p>
@@ -23,4 +29,8 @@
       Mantenimiento remoto y mejoras continuas.
     </p>
   </section>
+
+  </PageLayout>
+
+  
 </template>

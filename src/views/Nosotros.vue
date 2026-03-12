@@ -1,6 +1,10 @@
+<script setup>
+import PageLayout from '../layouts/PageLayout.vue'
+</script>
+
 <template>
-  <section>
-    <h1>Sobre nosotros</h1>
+
+  <PageLayout title="Sobre nosotros">
 
     <p>
       Somos un estudio de desarrollo de software enfocado
@@ -12,5 +16,7 @@
       Trabajamos de forma directa, sin intermediarios,
       con soluciones a medida para cada negocio.
     </p>
-  </section>
+
+  </PageLayout>
+
 </template>
